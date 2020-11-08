@@ -1,7 +1,7 @@
 import pyautogui, time
 time.sleep(5)
-word = "I love you"
-n = 5
+word = "I love you to the moon and back"
+n = 10
 while n > 0:
     pyautogui.typewrite(word)
     time.sleep(0.5)
